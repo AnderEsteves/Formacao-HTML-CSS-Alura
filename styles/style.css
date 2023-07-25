@@ -9,7 +9,7 @@
 body{
   background-color: black;
   color: white;
-  height: 100vh;
+  /* height: 100vh; */
   box-sizing: border-box;
   /* overflow: hidden; */
 }  
@@ -17,14 +17,15 @@ body{
 .cabecalho{
   background-color: orange;
   margin: 0% 10% 0% 10%;
-  padding: 30px;
+  
 }
 
 .cabecalho-menu{
   display: flex;
-  margin-left: 122px;
+  padding: 2% 0% 0% 10%;
   gap: 7%;
   background-color: indigo;
+ 
 }
 
 .cabecalho-links{
@@ -32,6 +33,7 @@ body{
   font-weight: 600;
   font-size: 24px;
   color: #22D4FD;
+  text-decoration: none;
 }
 
 .titulo-destaque{
@@ -47,8 +49,9 @@ body{
 }
 
 .apresentacao-textos{
-  background-color: blueviolet;
-  margin: 5% 10% 0% 10%;;
+  /* background-color: blueviolet; */
+  margin: 0% 10% 0% 10%;
+  padding: 4% 0% 10% 0%;
 
 }
 
@@ -91,7 +94,8 @@ body{
 .apresentacao-icone{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  gap: 20px;
 
   border: 2px solid #22D4FD;
 
@@ -107,3 +111,23 @@ body{
 
 }
 
+.apresentacao-icone:hover{
+  background-color: #272727;
+}
+
+.apresentacao-icone-svg-imagem{
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: space-around;
+}
+
+.rodape{
+  padding: 24px;
+  background-color: #22D4FD;
+  text-align: center;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}

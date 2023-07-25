@@ -3,17 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Home</title>
 </head>
 <body>
-  <header>
-    <section class="cabecalho">
-      <div class="cabecalho-menu">
-        <a class="cabecalho-links">Home</a>
-        <a class="cabecalho-links">Sobre Mim</a>
-      </div>
-    </section>
+  <header class="cabecalho">
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-links" href="index.html">Home</a>
+      <a class="cabecalho-links" href="about.html">Sobre Mim</a>
+    </nav>
   </header>
   <main class="apresentacao">
     <section class="apresentacao-textos">
@@ -24,13 +22,22 @@
       </div>
       <div class="apresentacao-textos-icone">
         <h2 class="apresentacao-textos-icone-paragrafo">Acesse minhas redes:</h2>
-        <a class="apresentacao-icone" href="https://linkedin.com/in/anderson-esteves/" target="_blank">Linkedin</a>
-        <a class="apresentacao-icone" href="https://github.com/anderesteves" target="_blank">Github</a>
-        <a class="apresentacao-icone" href="https://intagram.com/ander_esteves" target="_blank">Instagram</a>                               
+
+        <a class="apresentacao-icone" href="https://linkedin.com/in/anderson-esteves/" target="_blank">
+          <img class="apresentacao-icone-svg-imagem" src="./imagem/instagram.svg" alt="linkedin">Instagram</a>
+
+        <a class="apresentacao-icone" href="https://linkedin.com/in/anderson-esteves/" target="_blank">
+           <img class="apresentacao-icone-svg-imagem" src="./imagem/linkedin.svg" alt="linkedin">Linkedin</a>
+
+        <a class="apresentacao-icone" href="https://linkedin.com/in/anderson-esteves/" target="_blank">
+            <img class="apresentacao-icone-svg-imagem" src="./imagem/github.svg" alt="linkedin">Github</a>
+            
       </div>
     </section>
-    <img src="imagem.png" alt="foto da joana">
+    <img src="./imagem/capa.png" alt="foto da joana">
   </main>
-  <footer></footer>                    
+  <footer class="rodape">
+    <p>Desenvolvido por Alura.</p>
+  </footer>                    
 </body>
 </html>
