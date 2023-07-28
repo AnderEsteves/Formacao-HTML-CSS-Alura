@@ -26,7 +26,7 @@ body{
 }  
 
 .cabecalho{
-  background-color: orange;
+  /* background-color: orange; */
   margin: 0% 10% 0% 10%;
   
 }
@@ -35,7 +35,7 @@ body{
   display: flex;
   padding: 2% 0% 0% 10%;
   gap: 7%;
-  background-color: indigo;
+  /* background-color: indigo; */
  
 }
 
@@ -58,7 +58,7 @@ body{
   align-items: center;
   justify-content: space-between;
   gap: 2%;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .apresentacao-textos{
@@ -163,6 +163,13 @@ width: 50%;
     margin: 5% 10% 0% 10%;
     align-items: center;
     justify-content: center;
+    width: auto;
+
+    
+  }
+
+  .apresentacao-textos-central{
+    font-size: 0.5rem;
   }
 
   .apresentacao-textos{
@@ -170,4 +177,65 @@ width: 50%;
   }
 
 
+}
+
+@media (max-width: 720px) {
+  .cabecalho{
+    margin: 10%;
+  }
+
+
+  .apresentacao{
+  
+  }
+
+ .apresentacao-imagem{
+  margin-top: 5%;
+ }
+
+  .apresentacao-textos{
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .apresentacao-central{
+    margin: 0% 10% 0% 10%;
+    font-size: 1.5rem;
+  }
+
+  .apresentacao-paragrafo{
+    margin: 10%;
+    font-size: 1rem;
+  }
+  
+  .apresentacao-textos{
+    margin-top: 15%;
+  }
+
+  .apresentacao-textos-central{
+    font-size: 1rem;
+  }
+
+  .apresentacao-textos-icone-paragrafo{
+    font-size: 1.2rem;
+  }
+
+  .apresentacao-icone{
+    font-size: 1rem;
+    gap: 25px;
+    justify-content:center;
+    
+
+    width: 248px;
+    height: 59px;
+    
+  }
+
+  .apresentacao-icone-svg-imagem{
+    width: 10%;
+  }
+
+  .rodape{
+    margin-top: 15%;
+  }
 }
