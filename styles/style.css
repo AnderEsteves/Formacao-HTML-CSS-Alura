@@ -135,7 +135,9 @@ justify-content: space-around;
 }
 
 .apresentacao-imagem {
-width: 50%;
+width: 30%;
+border: 4px solid var(--cor-terciaria);
+border-radius: 10%;
 
 }
 
@@ -185,12 +187,8 @@ width: 50%;
   }
 
 
-  .apresentacao{
-  
-  }
-
  .apresentacao-imagem{
-  margin-top: 5%;
+  margin-top: 2%;
  }
 
   .apresentacao-textos{
@@ -217,7 +215,7 @@ width: 50%;
   }
 
   .apresentacao-textos-icone-paragrafo{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .apresentacao-icone{
@@ -236,6 +234,8 @@ width: 50%;
   }
 
   .rodape{
-    margin-top: 15%;
+    font-size: 1rem;
+    padding: 14px;
+    margin-top: 10%;
   }
 }
